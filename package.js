@@ -12,7 +12,7 @@ Package.on_use(function (api) {
   });
 
   api.use([
-    'ecmascript',
+    'ecmascript@0.1.6',
     'underscore@1.0.4',
     'reactive-var@1.0.6'
   ]);
