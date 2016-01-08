@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'jeremy:stripe',
+  name: "jeremy:stripe",
   summary: "Stripe.js, Stripe Checkout, and Stripe for Node (async/sync) wrapped up for Meteor.",
-  version: '1.1.0',
-  git: 'https://github.com/jshimko/meteor-stripe.git'
+  version: "1.1.0",
+  git: "https://github.com/jshimko/meteor-stripe.git"
 });
 
 Package.on_use(function (api) {
@@ -12,14 +12,14 @@ Package.on_use(function (api) {
   });
 
   api.use([
-    'ecmascript@0.1.6',
-    'underscore@1.0.4',
-    'reactive-var@1.0.6'
+    "ecmascript@0.1.6",
+    "underscore@1.0.4",
+    "reactive-var@1.0.6"
   ]);
 
-  api.addFiles('stripe_client.js', 'client');
-  api.addFiles('stripe_server.js', 'server');
+  api.addFiles("stripe_client.js", "client");
+  api.addFiles("stripe_server.js", "server");
 
-  api.export('ReactiveStripe', 'client');
-  api.export(['Stripe', 'StripeSync'], 'server');
+  api.export("ReactiveStripe", "client");
+  api.export(["Stripe", "StripeSync"], "server");
 });

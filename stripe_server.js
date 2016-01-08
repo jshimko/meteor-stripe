@@ -1,5 +1,5 @@
 
-Stripe = Npm.require('stripe');
+Stripe = Npm.require("stripe");
 
 StripeSync = (key) => {
 
