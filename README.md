@@ -6,7 +6,7 @@ Package includes:
 
 [Stripe.js](https://stripe.com/docs/stripe.js) (latest from CDN)
 [Stripe Checkout](https://stripe.com/docs/checkout) (latest from CDN)
-[Stripe for Node.js](https://www.npmjs.com/package/stripe) (v4.4.0)
+[Stripe for Node.js](https://www.npmjs.com/package/stripe) (v4.5.0)
 
 ## Install
 
