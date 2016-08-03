@@ -1,14 +1,14 @@
 Package.describe({
   name: "jeremy:stripe",
   summary: "Stripe.js, Stripe Checkout, and Stripe for Node (async/sync) wrapped up for Meteor.",
-  version: "1.5.0",
+  version: "1.6.0",
   git: "https://github.com/jshimko/meteor-stripe.git"
 });
 
 Package.on_use(function (api) {
 
   Npm.depends({
-    "stripe": "4.7.0"
+    "stripe": "4.9.0"
   });
 
   api.use([
